@@ -1,2 +1,2 @@
-# ag-disable-scroll
+# ng-disable-scroll
 Disable page from scrolling when a certain action happens.

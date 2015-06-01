@@ -1,0 +1,22 @@
+{
+  "name": "ng-disable-scroll",
+  "version": "0.0.0",
+  "description": "Disable page from scrolling when certain events happen.",
+  "main": "disable-scroll.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaketbaby/ng-disable-scroll.git"
+  },
+  "keywords": [
+    "Angular",
+    "Scroll"
+  ],
+  "author": "Shaketbaby",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/shaketbaby/ng-disable-scroll/issues"
+  },
+  "homepage": "https://github.com/shaketbaby/ng-disable-scroll"
+}
