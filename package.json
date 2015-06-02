@@ -4,6 +4,7 @@
   "description": "Disable page from scrolling when certain events happen.",
   "main": "disable-scroll.js",
   "scripts": {
+    "release": "node bin/release.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/shaketbaby/ng-disable-scroll/issues"
   },
-  "homepage": "https://github.com/shaketbaby/ng-disable-scroll"
+  "homepage": "https://github.com/shaketbaby/ng-disable-scroll",
+  "devDependencies": {
+    "shelljs": "^0.5.0",
+    "uglify-js": "^2.4.23"
+  }
 }
