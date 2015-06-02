@@ -1,6 +1,6 @@
 {
   "name": "ng-disable-scroll",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Disable page from scrolling when certain events happen.",
   "main": "disable-scroll.js",
   "scripts": {
