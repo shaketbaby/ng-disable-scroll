@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/ng-disable-scroll.png?downloads=true)](https://nodei.co/npm/ng-disable-scroll/)
+
 ### What does it do
 
 Sometimes when a certain action happens, for instance, main menu slides out,
