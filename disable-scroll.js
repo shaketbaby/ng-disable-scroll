@@ -10,7 +10,7 @@
     function($document) {
       var lastElementToDisableScroll = null;
       $document.find("head").append(
-        "<style type='text/css'>.ng-disable-scroll{overflow:hidden !important;}</style>"
+        "<style type='text/css'>body.ng-disable-scroll-pad{padding-right: 17px;} .ng-disable-scroll{overflow:hidden !important;}</style>"
       );
       return {
         restrict: "A",
@@ -21,9 +21,11 @@
             if (shouldDisable) {
               lastElementToDisableScroll = $element;
               rootHtmlElement.addClass("ng-disable-scroll");
+              $document[0].querySelector('body').classList.add('ng-disable-scroll-pad');
               $document.bind("touchmove", touchHandler);
             } else {
               unbindHandler();
+              $document[0].querySelector('body').classList.remove('ng-disable-scroll-pad');
             }
           });
 
